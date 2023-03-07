@@ -1,6 +1,7 @@
-swift package --allow-writing-to-directory ../../Web/AsyncGraphics-Docs/docs \
+swift package \
+    --allow-writing-to-directory ../../Web/AsyncGraphics-Docs/docs \
     generate-documentation --target AsyncGraphics \
     --disable-indexing \
     --transform-for-static-hosting \
-    --hosting-base-path [hosting-base-path] \
-    --output-path [path-to-docs-directory]
+    --hosting-base-path https://heestand-xyz.github.io/AsyncGraphics-Docs \
+    --output-path ../../Web/AsyncGraphics-Docs/docs
