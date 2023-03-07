@@ -3,4 +3,5 @@ swift package \
     generate-documentation --target AsyncGraphics \
     --disable-indexing \
     --transform-for-static-hosting \
+    --hosting-base-path AsyncGraphics-Docs \
     --output-path ../../Web/AsyncGraphics-Docs/docs
