@@ -1,7 +1,7 @@
 swift package \
-    --allow-writing-to-directory "../../Docs/AsyncGraphics Docs/docs" \
+    --allow-writing-to-directory "../../Docs/AsyncGraphics-Docs/docs" \
     generate-documentation --target AsyncGraphics \
     --disable-indexing \
     --transform-for-static-hosting \
     --hosting-base-path AsyncGraphics-Docs \
-    --output-path "../../Docs/AsyncGraphics Docs/docs"
+    --output-path "../../Docs/AsyncGraphics-Docs/docs"
